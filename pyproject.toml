@@ -1,0 +1,20 @@
+[project]
+name = "granola-processor"
+version = "0.1.0"
+description = "AI-powered daily meeting analysis for Granola transcriptions with GPT-5"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Jeba Emmanuel" }
+]
+keywords = ["granola", "meeting-analysis", "gpt-5", "feedback", "sr-staff"]
+dependencies = [
+    "requests>=2.31.0",
+    "openai>=1.54.0",
+    "python-dotenv>=1.0.0",
+    "resend>=0.8.0",
+    "pytest>=7.4.0",
+]
+
+[project.scripts]
+analyze = "analyze_meetings:main"
