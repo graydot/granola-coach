@@ -1,6 +1,10 @@
 # Granola Meeting Analyzer
+*AI-powered meeting feedback using GPT-5. Analyzes your Granola meetings daily at 5 PM.*
 
-AI-powered meeting feedback using GPT-5. Analyzes your Granola meetings daily at 5 PM.
+You take meeting notes in Granola. You have action items. 
+Granola coach uses the same transcripts to coach you on how to run meetings better. 
+
+
 
 ## Install
 
